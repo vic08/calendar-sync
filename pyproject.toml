@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "calendar-sync"
+version = "0.1.0"
+description = ""
+authors = ["Vic Logunov <mr.vic@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+imaplib2 = "^3.6"
+icalendar = "^5.0.13"
+python-dateutil = "^2.9.0.post0"
+pyobjc-framework-eventkit = "^10.3.1"
+pyobjc = "^10.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
